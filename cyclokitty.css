@@ -1,0 +1,100 @@
+body {
+  width: 100%;
+}
+
+.brand-logo {
+  margin-left: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 25px;
+}
+
+p {
+  font-size: 16px;
+}
+
+
+
+.laura {
+  background-color: #212121;
+  color: #fff;
+  height: 50vh;
+  width: 100vw;
+  text-align: center;
+}
+
+a {
+  color: #ff4081;
+}
+
+svg {
+  margin: 0 auto;
+  display: block;
+  padding-top: 25px;
+}
+
+svg circle {
+  fill: none;
+  stroke-width: 2px;
+  stroke: #ff4081 ;
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+  opacity: 0;
+  -webkit-animation: 4s circle-outline 1 forwards;
+          animation: 4s circle-outline 1 forwards;
+}
+
+svg path {
+  fill: none;
+  stroke: #ff4081 ;
+  stroke-width: 1px;
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+  opacity: 0;
+  -webkit-animation: 4s text-outline 1 forwards;
+          animation: 4s text-outline 1 forwards;
+}
+
+@-webkit-keyframes circle-outline {
+  from {
+    stroke-dashoffset: 800;
+    opacity: 0;
+  }
+  to {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes circle-outline {
+  from {
+    stroke-dashoffset: 800;
+    opacity: 0;
+  }
+  to {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes text-outline {
+  from {
+    stroke-dashoffset: 400;
+    opacity: 0;
+  }
+  to {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+@keyframes text-outline {
+  from {
+    stroke-dashoffset: 400;
+    opacity: 0;
+  }
+  to {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
