@@ -98,3 +98,7 @@ svg path {
     opacity: 1;
   }
 }
+
+.btn {
+  margin: 10px;
+}
