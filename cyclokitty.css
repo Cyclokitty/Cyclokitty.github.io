@@ -15,7 +15,9 @@ p {
   font-size: 16px;
 }
 
-
+.pink-text {
+  color: #ff4081 !important;
+}
 
 .laura {
   background-color: #212121;
