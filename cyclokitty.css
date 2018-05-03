@@ -29,6 +29,7 @@ p {
   height: 50vh;
   width: 100vw;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 a {
@@ -107,4 +108,8 @@ svg path {
 
 .btn {
   margin: 10px;
+}
+
+#extraPadding {
+  padding-bottom:20px;
 }
